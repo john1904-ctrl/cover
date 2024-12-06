@@ -32,77 +32,121 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>my book</title>
-        <style>
-            .main{
-                position: relative;
-                margin: center;
-                margin-left: 500;
-                background-repeat: no-repeat;
-                height: 750px;
-                width:550px;
-                background-image: url(book.jpg);
-                
-            }
-            .heading{
-                
-                position: absolute;
-                top: 150px;
-                left: 50;
-                font-size: 45;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            }
-            .ver{
-                position: absolute;
-                right: 20;
-                font-family:cursive;
-                font-size: 12;
-            }
-            .year{
-                position: absolute;
-                top: 20px;
-                right: 20;
-                font-size: 10;
-                font-family: serif;
-            }
-            .name{
-                position:absolute;
-                bottom: 20px;
-                left:20
-            }
-            .me{
-                position: absolute;
-                height: 130;
-                right:10;
-                bottom:45;
-            }
-
-        </style>
-    </head>
+<head>
+    <title>my book</title>
+    <style>
+        .main {
+            position: relative;
+            margin: center;
+            margin-left: 500px;
+            background-repeat: no-repeat;
+            height: 710px;
+            width: 550px;
+            background-image: url('book.jpg');
+            border: 2px solid #000; 
+        }
+        .heading {
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            font-size: 45px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .title {
+            position: absolute;
+            top: 120px;
+            left: 30px;
+            font-size: 30px;
+        }
+        .ver {
+            position: absolute;
+            left: 20px;
+            font-family: cursive;
+            font-size: 12px;
+            bottom: 1px;
+        }
+        .vers {
+            position: absolute;
+            left: 20px;
+            font-family: cursive;
+            font-size: 12px;
+            bottom: 15px;
+        }
+        .year {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 10px;
+            font-family: sans-serif;
+        }
+        .name {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+        }
+        .me {
+            position: absolute;
+            height: 130px;
+            right: 10px;
+            bottom: 65px;
+        }
+        .mine {
+            position: absolute;
+            top: 600px; 
+            left: 10px; 
+            font-family: cursive;
+            font-size: 12px;
+            
+          
+        }
+        .line {
+            position: absolute;
+            width: auto;
     
-    <body>
-        <div class="main">
-            
-            <h1 class="heading">FULL STACK <BR>DEVELOPMENT</h1>
-            <h6 class="ver">YEAR OF PUBLISH</h6>
-            <h6 class="year">2024</h6>
-            <h5 class="name">JOHN PALL M</h5>
-            <img class="me" src="WhatsApp Image 2024-12-05 at 20.07.37_171c1d01.jpg">
-                        
-            
-            
-        </div>
+            height: 2px; 
+            background-color: orangered;
+            bottom: 130px;
+        }
+        .hr{
+            position: absolute;
+            width:100%; 
+            height: 2px;
+            background-color: rgb(255, 115, 0);
+            bottom: 55px; 
         
-    </body>
+  
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">FULL STACK <br> DEVELOPMENT</h1>
+        <h4 class="title">TO LEARN HTML, CSS, JAVASCRIPT, REACT, SQL IN THIS BOOK</h4>
+        
+        <h5 class="mine">PRIME EDITION</h5>
+        <h6 class="year">2024</h6>
+        
+        <img class="me" src="WhatsApp Image 2024-12-05 at 20.07.37_171c1d01.jpg" alt="Author Image">
+        
+        <h5 class="name">JOHN PALL M</h5>
+        <h6 class="vers">Author</h6>
+        <h6 class="ver">Tim Berners-Lee</h6>
+        <hr class="hr">
+    </div>
+</body>
 </html>
+
 ```
 
 
 ## OUTPUT:
-![alt text](<Screenshot (46).png>)
 
+![Screenshot (48)](https://github.com/user-attachments/assets/6ef8fa09-ce6c-420c-aa45-80fb2ab68af5)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
